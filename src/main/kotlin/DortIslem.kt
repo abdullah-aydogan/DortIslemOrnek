@@ -4,8 +4,8 @@ fun main() {
 
     val girdi = Scanner(System.`in`) // Scanner sınıfından nesne
 
-    val sayi1 = 0 // Sayı 1 tanımlama
-    val sayi2 = 0 // Sayı 2 tanımlama
+    var sayi1 = 0 // Sayı 1 tanımlama
+    var sayi2 = 0 // Sayı 2 tanımlama
 
     println("Toplama (1)")
     println("Çıkarma (2)")
@@ -16,12 +16,18 @@ fun main() {
 
     if (secim == 1) {
 
-        
+        println("Birinci sayıyı giriniz.")
+        sayi1 = girdi.nextInt()
+
+        println("İkinci sayıyı giriniz.")
+        sayi2 = girdi.nextInt()
+
+        println("Toplama : ${sayi1 + sayi2}")
     }
 
     else if (secim == 2) {
 
-
+        
     }
 
     else if (secim == 3) {
