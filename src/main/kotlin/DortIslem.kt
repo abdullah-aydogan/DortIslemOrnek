@@ -27,12 +27,18 @@ fun main() {
 
     else if (secim == 2) {
 
-        
+        println("Birinci sayıyı giriniz.")
+        sayi1 = girdi.nextInt()
+
+        println("İkinci sayıyı giriniz.")
+        sayi2 = girdi.nextInt()
+
+        println("Çıkarma : ${sayi1 - sayi2}")
     }
 
     else if (secim == 3) {
 
-
+        
     }
 
     else if (secim == 4) {
