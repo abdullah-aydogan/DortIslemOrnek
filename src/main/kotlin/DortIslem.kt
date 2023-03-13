@@ -49,7 +49,13 @@ fun main() {
 
     else if (secim == 4) {
 
-        
+        println("Birinci sayıyı giriniz.")
+        sayi1 = girdi.nextInt()
+
+        println("İkinci sayıyı giriniz.")
+        sayi2 = girdi.nextInt()
+
+        println("Bölme : ${sayi1 / sayi2}")
     }
 
     else {
